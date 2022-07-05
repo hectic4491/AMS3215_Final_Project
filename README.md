@@ -1,7 +1,7 @@
 # AMS_325_Final_Project
 
 
-### simple synth ###
+### Simple Synth ###
 
 
 ### FILES ###
