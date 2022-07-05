@@ -1,2 +1,2 @@
-# AMS3215_Final_Project
+# AMS_325_Final_Project
 simple synth
