@@ -22,7 +22,7 @@ def oscillator(frequency=440, duration=1.5, waveform=np.sin, wavetable_length=64
 
     wavetable = np.zeros(wavetable_length)
 
-    # dividing the waveform into 64 segment values
+    # dividing the waveform into wavetable_length segment values
     for n in range (wavetable_length):
         wavetable[n] = waveform(2*np.pi*n / wavetable_length)
 
