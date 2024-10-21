@@ -1,4 +1,4 @@
-# AMS_325_Final_Project
+# Simple-Synth
 
 
 ### Simple Synth ###
