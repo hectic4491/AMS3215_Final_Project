@@ -1,5 +1,5 @@
 # Simple-Synth
-> A simple synthesizer built for Stony Brook Universities AMS 315 Final Project.
+> A simple synthesizer built for Stony Brook Universities AMS 325: 'Computing and Programming Fundamentals in AMS' final project.
 
 ### FILES ###
 This repository contains 3 .py files:
