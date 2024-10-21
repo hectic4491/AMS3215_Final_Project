@@ -1,8 +1,5 @@
 # Simple-Synth
-
-
-### Simple Synth ###
-
+> A simple synthesizer built for StonyBrook Universities AMS 315 Final Project.
 
 ### FILES ###
 This repository contains 3 .py files:
