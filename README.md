@@ -15,13 +15,14 @@ interface.py
  
  
 ### HOW TO START ###
-to start the synth, run interface.py
+  * to start the synth, run interface.py
 
 
 ### PACKAGES USED ###
 packages needed:
-  numpy
-  pygame
+  * numpy
+  * pygame
+  * pygame_gui
   
 
 built in VScode
