@@ -8,7 +8,7 @@ frequency_gen.py
   generates the dictionary of frequencies
 
 oscillator.py
-  is the signal generator function of the simple synth. default values can be adjust from this function.
+  is the signal generator function of the simple synth. default values can be adjusted from this function.
  
 interface.py
   the main project file that builds the interface and calls the above two files
