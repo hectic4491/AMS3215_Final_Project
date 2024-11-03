@@ -20,12 +20,12 @@ interface.py
 # Report #
 
 Simple Synth
- <br>
+\
 Simple Synth is a digital synthesizer built with python that uses wavetable synthesis to construct an audio signal. A wavetable is an array in memory which stores a fragment of a waveform. The benefit of using a wavetable is improved computation time, as the waveform is broken into smaller segments, called samples. The focus of this project was to practice audio signal methods, as well as application development. Special attention was given to the user interface, which is something I've never done before. This report details the construction and features of Simple Synth. The github repository can be found at: https://github.com/hectic4491/AMS_315_Final_Project.
- <br>
+\
 First, some background on sound synthesis. Typical acoustic instruments, like a grand piano or acoustic guitar, create sound by vibrating strings. A vibrating string will vibrate in many directions and at different partial intervals, called harmonics. The lowest of these intervals is called the fundamental frequency and is typically the most dominantly audible note. In an electronic keyboard, recordings of other instruments, such as a piano, organ, or guitar, are stored in memory and then played when specific keys are struck. In a synthesizer, the actual signal is generated onboard with an oscillator and then further sculpted and adjusted through various other filters. 
 A sine wave could be written as a periodic function of time, such that: 
-<br>
+\
 where A is defined to be the amplitude in range of [0,1], f is the frequency of the sine wave in hertz, t is where the function evaluates at time t in seconds, and phi is the current phase of the waveform. For our purposes we let phi = 0, as the phase of the signal is preserved when indexing the wavetable.
 <br>
 Common devices that record and play sound don't necessarily capture and write/read audio at a continuous interval, instead the standardized 44.1Khz sample rate is used to record and playback sound. The frequency spectrum that humans hear at is between 20 to 20,000Hz. Because of a certain Nyquist–Shannon sampling theorem, the sampling frequency must be twice that of which we wish to hear, hence sampling at 44.1K, since it’s a little more than double that of the highest human audible frequency. 
